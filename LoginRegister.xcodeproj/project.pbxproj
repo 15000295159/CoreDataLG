@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA357FA41C476CEE00314812 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA357FA21C476CEE00314812 /* SuccessViewController.m */; };
+		AA357FA51C476CEE00314812 /* SuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA357FA31C476CEE00314812 /* SuccessViewController.xib */; };
+		AAC2BA691C460207002E0937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BA681C460207002E0937 /* main.m */; };
+		AAC2BA6C1C460207002E0937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BA6B1C460207002E0937 /* AppDelegate.m */; };
+		AAC2BA721C460207002E0937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC2BA701C460207002E0937 /* Main.storyboard */; };
+		AAC2BA751C460207002E0937 /* LoginRegister.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BA731C460207002E0937 /* LoginRegister.xcdatamodeld */; };
+		AAC2BA771C460207002E0937 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC2BA761C460207002E0937 /* Assets.xcassets */; };
+		AAC2BA7A1C460207002E0937 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC2BA781C460207002E0937 /* LaunchScreen.storyboard */; };
+		AAC2BA851C460207002E0937 /* LoginRegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BA841C460207002E0937 /* LoginRegisterTests.m */; };
+		AAC2BA901C460207002E0937 /* LoginRegisterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BA8F1C460207002E0937 /* LoginRegisterUITests.m */; };
+		AAC2BAA01C460228002E0937 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BA9E1C460228002E0937 /* LoginViewController.m */; };
+		AAC2BAA11C460228002E0937 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC2BA9F1C460228002E0937 /* LoginViewController.xib */; };
+		AAC2BAA51C46023A002E0937 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BAA31C46023A002E0937 /* RegisterViewController.m */; };
+		AAC2BAA61C46023A002E0937 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC2BAA41C46023A002E0937 /* RegisterViewController.xib */; };
+		AAC2BAAA1C46024D002E0937 /* PassWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BAA81C46024D002E0937 /* PassWordViewController.m */; };
+		AAC2BAAB1C46024D002E0937 /* PassWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC2BAA91C46024D002E0937 /* PassWordViewController.xib */; };
+		AAC2BACD1C462FA4002E0937 /* NSString+Verify.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC2BACC1C462FA4002E0937 /* NSString+Verify.m */; };
+		AACFAA1E1C464568007FAD63 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACFAA1D1C464568007FAD63 /* CoreData.framework */; };
+		AACFAA291C465866007FAD63 /* People+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAA261C465866007FAD63 /* People+CoreDataProperties.m */; };
+		AACFAA2A1C465866007FAD63 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = AACFAA281C465866007FAD63 /* People.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAC2BA811C460207002E0937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC2BA5C1C460207002E0937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC2BA631C460207002E0937;
+			remoteInfo = LoginRegister;
+		};
+		AAC2BA8C1C460207002E0937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC2BA5C1C460207002E0937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC2BA631C460207002E0937;
+			remoteInfo = LoginRegister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA357FA11C476CEE00314812 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		AA357FA21C476CEE00314812 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		AA357FA31C476CEE00314812 /* SuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessViewController.xib; sourceTree = "<group>"; };
+		AAC2BA641C460207002E0937 /* LoginRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC2BA681C460207002E0937 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAC2BA6A1C460207002E0937 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AAC2BA6B1C460207002E0937 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AAC2BA711C460207002E0937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAC2BA741C460207002E0937 /* LoginRegister.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoginRegister.xcdatamodel; sourceTree = "<group>"; };
+		AAC2BA761C460207002E0937 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAC2BA791C460207002E0937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAC2BA7B1C460207002E0937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC2BA801C460207002E0937 /* LoginRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC2BA841C460207002E0937 /* LoginRegisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRegisterTests.m; sourceTree = "<group>"; };
+		AAC2BA861C460207002E0937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC2BA8B1C460207002E0937 /* LoginRegisterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginRegisterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC2BA8F1C460207002E0937 /* LoginRegisterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginRegisterUITests.m; sourceTree = "<group>"; };
+		AAC2BA911C460207002E0937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC2BA9D1C460228002E0937 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		AAC2BA9E1C460228002E0937 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		AAC2BA9F1C460228002E0937 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AAC2BAA21C46023A002E0937 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		AAC2BAA31C46023A002E0937 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		AAC2BAA41C46023A002E0937 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		AAC2BAA71C46024D002E0937 /* PassWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassWordViewController.h; sourceTree = "<group>"; };
+		AAC2BAA81C46024D002E0937 /* PassWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassWordViewController.m; sourceTree = "<group>"; };
+		AAC2BAA91C46024D002E0937 /* PassWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassWordViewController.xib; sourceTree = "<group>"; };
+		AAC2BACB1C462FA4002E0937 /* NSString+Verify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Verify.h"; sourceTree = "<group>"; };
+		AAC2BACC1C462FA4002E0937 /* NSString+Verify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Verify.m"; sourceTree = "<group>"; };
+		AACFAA1D1C464568007FAD63 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AACFAA251C465866007FAD63 /* People+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "People+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AACFAA261C465866007FAD63 /* People+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "People+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AACFAA271C465866007FAD63 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		AACFAA281C465866007FAD63 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC2BA611C460207002E0937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACFAA1E1C464568007FAD63 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC2BA7D1C460207002E0937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC2BA881C460207002E0937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC2BA5B1C460207002E0937 = {
+			isa = PBXGroup;
+			children = (
+				AACFAA1D1C464568007FAD63 /* CoreData.framework */,
+				AAC2BA661C460207002E0937 /* LoginRegister */,
+				AAC2BA831C460207002E0937 /* LoginRegisterTests */,
+				AAC2BA8E1C460207002E0937 /* LoginRegisterUITests */,
+				AAC2BA651C460207002E0937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC2BA651C460207002E0937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2BA641C460207002E0937 /* LoginRegister.app */,
+				AAC2BA801C460207002E0937 /* LoginRegisterTests.xctest */,
+				AAC2BA8B1C460207002E0937 /* LoginRegisterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC2BA661C460207002E0937 /* LoginRegister */ = {
+			isa = PBXGroup;
+			children = (
+				AACFAA251C465866007FAD63 /* People+CoreDataProperties.h */,
+				AACFAA261C465866007FAD63 /* People+CoreDataProperties.m */,
+				AACFAA271C465866007FAD63 /* People.h */,
+				AACFAA281C465866007FAD63 /* People.m */,
+				AAC2BA6A1C460207002E0937 /* AppDelegate.h */,
+				AAC2BA6B1C460207002E0937 /* AppDelegate.m */,
+				AAC2BA9D1C460228002E0937 /* LoginViewController.h */,
+				AAC2BA9E1C460228002E0937 /* LoginViewController.m */,
+				AAC2BA9F1C460228002E0937 /* LoginViewController.xib */,
+				AAC2BAA21C46023A002E0937 /* RegisterViewController.h */,
+				AAC2BAA31C46023A002E0937 /* RegisterViewController.m */,
+				AAC2BAA41C46023A002E0937 /* RegisterViewController.xib */,
+				AAC2BACB1C462FA4002E0937 /* NSString+Verify.h */,
+				AAC2BACC1C462FA4002E0937 /* NSString+Verify.m */,
+				AAC2BAA71C46024D002E0937 /* PassWordViewController.h */,
+				AAC2BAA81C46024D002E0937 /* PassWordViewController.m */,
+				AAC2BAA91C46024D002E0937 /* PassWordViewController.xib */,
+				AA357FA11C476CEE00314812 /* SuccessViewController.h */,
+				AA357FA21C476CEE00314812 /* SuccessViewController.m */,
+				AA357FA31C476CEE00314812 /* SuccessViewController.xib */,
+				AAC2BA701C460207002E0937 /* Main.storyboard */,
+				AAC2BA761C460207002E0937 /* Assets.xcassets */,
+				AAC2BA781C460207002E0937 /* LaunchScreen.storyboard */,
+				AAC2BA7B1C460207002E0937 /* Info.plist */,
+				AAC2BA731C460207002E0937 /* LoginRegister.xcdatamodeld */,
+				AAC2BA671C460207002E0937 /* Supporting Files */,
+			);
+			path = LoginRegister;
+			sourceTree = "<group>";
+		};
+		AAC2BA671C460207002E0937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2BA681C460207002E0937 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC2BA831C460207002E0937 /* LoginRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2BA841C460207002E0937 /* LoginRegisterTests.m */,
+				AAC2BA861C460207002E0937 /* Info.plist */,
+			);
+			path = LoginRegisterTests;
+			sourceTree = "<group>";
+		};
+		AAC2BA8E1C460207002E0937 /* LoginRegisterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAC2BA8F1C460207002E0937 /* LoginRegisterUITests.m */,
+				AAC2BA911C460207002E0937 /* Info.plist */,
+			);
+			path = LoginRegisterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC2BA631C460207002E0937 /* LoginRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC2BA941C460207002E0937 /* Build configuration list for PBXNativeTarget "LoginRegister" */;
+			buildPhases = (
+				AAC2BA601C460207002E0937 /* Sources */,
+				AAC2BA611C460207002E0937 /* Frameworks */,
+				AAC2BA621C460207002E0937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginRegister;
+			productName = LoginRegister;
+			productReference = AAC2BA641C460207002E0937 /* LoginRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAC2BA7F1C460207002E0937 /* LoginRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC2BA971C460207002E0937 /* Build configuration list for PBXNativeTarget "LoginRegisterTests" */;
+			buildPhases = (
+				AAC2BA7C1C460207002E0937 /* Sources */,
+				AAC2BA7D1C460207002E0937 /* Frameworks */,
+				AAC2BA7E1C460207002E0937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC2BA821C460207002E0937 /* PBXTargetDependency */,
+			);
+			name = LoginRegisterTests;
+			productName = LoginRegisterTests;
+			productReference = AAC2BA801C460207002E0937 /* LoginRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAC2BA8A1C460207002E0937 /* LoginRegisterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC2BA9A1C460207002E0937 /* Build configuration list for PBXNativeTarget "LoginRegisterUITests" */;
+			buildPhases = (
+				AAC2BA871C460207002E0937 /* Sources */,
+				AAC2BA881C460207002E0937 /* Frameworks */,
+				AAC2BA891C460207002E0937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC2BA8D1C460207002E0937 /* PBXTargetDependency */,
+			);
+			name = LoginRegisterUITests;
+			productName = LoginRegisterUITests;
+			productReference = AAC2BA8B1C460207002E0937 /* LoginRegisterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC2BA5C1C460207002E0937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = gongren;
+				TargetAttributes = {
+					AAC2BA631C460207002E0937 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MN8ECXLX4Y;
+					};
+					AAC2BA7F1C460207002E0937 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAC2BA631C460207002E0937;
+					};
+					AAC2BA8A1C460207002E0937 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AAC2BA631C460207002E0937;
+					};
+				};
+			};
+			buildConfigurationList = AAC2BA5F1C460207002E0937 /* Build configuration list for PBXProject "LoginRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC2BA5B1C460207002E0937;
+			productRefGroup = AAC2BA651C460207002E0937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC2BA631C460207002E0937 /* LoginRegister */,
+				AAC2BA7F1C460207002E0937 /* LoginRegisterTests */,
+				AAC2BA8A1C460207002E0937 /* LoginRegisterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC2BA621C460207002E0937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC2BAA11C460228002E0937 /* LoginViewController.xib in Resources */,
+				AA357FA51C476CEE00314812 /* SuccessViewController.xib in Resources */,
+				AAC2BAA61C46023A002E0937 /* RegisterViewController.xib in Resources */,
+				AAC2BA7A1C460207002E0937 /* LaunchScreen.storyboard in Resources */,
+				AAC2BA771C460207002E0937 /* Assets.xcassets in Resources */,
+				AAC2BA721C460207002E0937 /* Main.storyboard in Resources */,
+				AAC2BAAB1C46024D002E0937 /* PassWordViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC2BA7E1C460207002E0937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC2BA891C460207002E0937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC2BA601C460207002E0937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACFAA2A1C465866007FAD63 /* People.m in Sources */,
+				AAC2BAA51C46023A002E0937 /* RegisterViewController.m in Sources */,
+				AAC2BAA01C460228002E0937 /* LoginViewController.m in Sources */,
+				AAC2BA751C460207002E0937 /* LoginRegister.xcdatamodeld in Sources */,
+				AAC2BAAA1C46024D002E0937 /* PassWordViewController.m in Sources */,
+				AACFAA291C465866007FAD63 /* People+CoreDataProperties.m in Sources */,
+				AAC2BA6C1C460207002E0937 /* AppDelegate.m in Sources */,
+				AAC2BACD1C462FA4002E0937 /* NSString+Verify.m in Sources */,
+				AA357FA41C476CEE00314812 /* SuccessViewController.m in Sources */,
+				AAC2BA691C460207002E0937 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC2BA7C1C460207002E0937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC2BA851C460207002E0937 /* LoginRegisterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC2BA871C460207002E0937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC2BA901C460207002E0937 /* LoginRegisterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAC2BA821C460207002E0937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC2BA631C460207002E0937 /* LoginRegister */;
+			targetProxy = AAC2BA811C460207002E0937 /* PBXContainerItemProxy */;
+		};
+		AAC2BA8D1C460207002E0937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC2BA631C460207002E0937 /* LoginRegister */;
+			targetProxy = AAC2BA8C1C460207002E0937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAC2BA701C460207002E0937 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC2BA711C460207002E0937 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAC2BA781C460207002E0937 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC2BA791C460207002E0937 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC2BA921C460207002E0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAC2BA931C460207002E0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC2BA951C460207002E0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LoginRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gongren-zcs.LoginRegister";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		AAC2BA961C460207002E0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = LoginRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gongren-zcs.LoginRegister";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		AAC2BA981C460207002E0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gongren-zcs.LoginRegisterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginRegister.app/LoginRegister";
+			};
+			name = Debug;
+		};
+		AAC2BA991C460207002E0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoginRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gongren-zcs.LoginRegisterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginRegister.app/LoginRegister";
+			};
+			name = Release;
+		};
+		AAC2BA9B1C460207002E0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gongren-zcs.LoginRegisterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginRegister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AAC2BA9C1C460207002E0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoginRegisterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gongren-zcs.LoginRegisterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoginRegister;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC2BA5F1C460207002E0937 /* Build configuration list for PBXProject "LoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC2BA921C460207002E0937 /* Debug */,
+				AAC2BA931C460207002E0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC2BA941C460207002E0937 /* Build configuration list for PBXNativeTarget "LoginRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC2BA951C460207002E0937 /* Debug */,
+				AAC2BA961C460207002E0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC2BA971C460207002E0937 /* Build configuration list for PBXNativeTarget "LoginRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC2BA981C460207002E0937 /* Debug */,
+				AAC2BA991C460207002E0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC2BA9A1C460207002E0937 /* Build configuration list for PBXNativeTarget "LoginRegisterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC2BA9B1C460207002E0937 /* Debug */,
+				AAC2BA9C1C460207002E0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAC2BA731C460207002E0937 /* LoginRegister.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAC2BA741C460207002E0937 /* LoginRegister.xcdatamodel */,
+			);
+			currentVersion = AAC2BA741C460207002E0937 /* LoginRegister.xcdatamodel */;
+			path = LoginRegister.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AAC2BA5C1C460207002E0937 /* Project object */;
+}
